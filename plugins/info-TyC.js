@@ -36,3 +36,39 @@ _- Si todavía tienes alguna duda o reclamo de lo mencionado aqui o referente al
 centersakurabot@gmail.com
 
 *∆ SAKURA- BOT - MD ∆*`;
+const handler = async (m, {conn}) => {
+  m.reply(global.terms);
+};
+handler.customPrefix = /terms and conditions and privacy|terms and conditions and privacy|terms and conditions|terms and conditions and privacy|terms and conditions|terms and conditions|terms of use|Terms of use|Ended use|terms of use|Terms of use|Terms and conditions/i;
+handler.command = new RegExp;
+export defaulthandler;
+
+global.terms = `
+*=> Ignorance of what is mentioned here does not exempt the owner of the Bot, or user of the bot from the sanctions that may arise❗*
+
+*⚠️ Privacy Terms*
+_1.- The information received by the Bot is NOT shared with any third party or anyone_
+_2.- The images/videos/sticker/audios/etc are not shared with anyone_
+_3.- Your phone number is not shared with absolutely anyone_
+_4.- Card data, locations, addresses, etc. are deleted immediately and are not shared with absolutely anyone_
+_5.- All conversations are deleted from time to time and no backup (not saved) of any type of information/conversation is made_
+
+*⚠️ Terms of use*
+_1.- We are not responsible for any misuse that may be given to the Bot_
+_2.- We are not responsible for ignorance and/or lack of knowledge of the subject_
+_3.- The Bot is not active 24 hours a day unless the owner decides otherwise_
+_4.- We are not responsible for the numbers that may be sent to support for the use of the Bot, it is advisable to always use virtual numbers for Bot uses_
+*➤ Bot number message?*
+_- If at any time you receive a message from the Bot number and it is not a command, it may be from the owner of the Bot or the owner of the number, this is a real person so we ask you not to disrespect him_
+
+-------------------------------------------
+
+*⁉️ Do you have any doubts?*
+_- If you still have any questions or complaints about what is mentioned here or regarding the Bot, contact me at my personal number to which I will be responding as soon as possible to provide you with a solution and/or take responsibility for any complaints_
+
+>Wa.me/918590508376
+> diegojadibot
+> Email:
+centersakurabot@gmail.com
+
+*∆ WIZARD- BOT - MD ∆*`;
